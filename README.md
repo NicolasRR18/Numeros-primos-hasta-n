@@ -16,7 +16,7 @@ Primos : entero
 k : entero
 inicio
   Primo := 2k+1
-  k:= 
+  k:= desde 0 en adelante (susecion)
   Para (k desde k=0 en adelante) hacer
     Si modulo(2k+1) ≤ n entonces
       escribir("estos son los numeros primos que hay hasta llegar a n")
