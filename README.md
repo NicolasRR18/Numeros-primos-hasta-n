@@ -21,10 +21,17 @@ inicio
   Primo:= (2k+1)/i
   Para k en rango (0,n) hacer
     Si modulo (2k+1) > n entonces
-      
+      escribir("Ya pasamos los numeros Primos menores o iguales a n, 
+      entonces estos son los numeros primos menores o iguales a n")
     sino
-      escribir("Ya pasamos los numeros Primos menores o iguales a n, entonces estos son los numeros primos menores o iguales a n")
+      escribir("Se debe seguir hasta llegar a 2k+1 > n")
   Fin Para
+  Para i en rango (1,2k+1) hacer
+    Si modulo (2k+1)/i son solo 1 y 2k+1 entonces
+      escribir("Es un numero primo")
+    sino
+      escribir("Es impar pero no es primo")
+Fin Para
 fin
 
 ```
@@ -45,13 +52,20 @@ fin
 
 ============================================================
 
--Posteriormente hice mi pseudocodigo en bloc de notas
+>-Posteriormente hice mi pseudocodigo en bloc de notas
 
 ============================================================
 
--
+-![image](https://github.com/user-attachments/assets/2bcb440f-ade1-43c5-b0ad-d30db53fcff0)
 
 ============================================================
+
+>-En conclusión, puedo evidenciar que mi algoritmo va bien encaminado a la hora 
+>de encontrar los numeros primos menores o iguales a n, puesto que aal hallar
+>los impares menores o iguales a n, tambien estoy comprobando si son primos es la
+>mejor manera, aunque es bien cierto que el numero 2 es primo, esto es lo que faltaria por
+>resaltar en el copdigo con fin de que a la hora de la lista, esta tambien imprima el
+>numero 2 si 2 es menor o igual a n
 
 # NICOLAS RAMIREZ RODRIGUEZ 1000506513
 
