@@ -12,13 +12,16 @@ código:
 ```
 [variables]
 n : entero
-k : entero
-Div: entero
+Impares: entero
+k: entero
+i: entero
+Primo: entero
 inicio
-  Div:= n/k
-  Para i en rango (1,n) hacer
-    Si modulo (n/k) != 0 entonces
-      escribir("estos son los numeros primos que hay hasta llegar a n")
+  Impares:= 2k+1
+  Primo:= (2k+1)/i
+  Para k en rango (0,n) hacer
+    Si modulo (2k+1) > n entonces
+      
     sino
       escribir("Ya pasamos los numeros Primos menores o iguales a n, entonces estos son los numeros primos menores o iguales a n")
   Fin Para
@@ -30,22 +33,23 @@ fin
 
   Estos fueron los pasos a elaborar:
   
->-Primero razone un modo de hallar numeros primos, y posteriormente cree
+>-Primero razoné un modo de hallar numeros primos, y posteriormente cree
 >un diagrama de flujo (en la plataforma mermeid) con fin de poder organizar mis ideas y pasos del
 >algoritmo
 
 ============================================================
 
+![image](https://github.com/user-attachments/assets/988a1fe1-12f2-46b5-aeba-9ecd9f944fe8)
+
+![image](https://github.com/user-attachments/assets/be359ff1-014e-4d9c-812c-2a34807443f4)
+
+============================================================
+
+-Posteriormente hice mi pseudocodigo en bloc de notas
 
 ============================================================
 
 -
-
-============================================================
-
--
-
-============================================================
 
 ============================================================
 
